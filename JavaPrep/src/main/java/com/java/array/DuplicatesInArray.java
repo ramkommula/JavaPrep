@@ -3,7 +3,7 @@ package com.java.array;
 import java.util.HashSet;
 import java.util.Set;
 
-public class DuplicatesInArray {
+public class DuplicatesInArray { // test
 	
 	public static void main(String[] args)
 	{

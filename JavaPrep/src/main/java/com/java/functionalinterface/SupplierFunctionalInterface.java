@@ -1,4 +1,4 @@
-package com.java.practice.functionalinterface;
+package com.java.functionalinterface;
 
 import java.util.Random;
 import java.util.function.Supplier;

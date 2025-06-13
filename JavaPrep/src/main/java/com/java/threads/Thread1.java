@@ -1,4 +1,4 @@
-package com.java.practice.threads;
+package com.java.threads;
 
 public class Thread1 extends Thread{
 	

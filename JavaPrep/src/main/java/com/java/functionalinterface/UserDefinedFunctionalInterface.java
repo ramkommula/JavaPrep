@@ -1,4 +1,4 @@
-package com.java.practice.functionalinterface;
+package com.java.functionalinterface;
 
 @FunctionalInterface
 public interface UserDefinedFunctionalInterface {

@@ -15,6 +15,14 @@ public class ConsumerFunctionalInterface {
 		};
 		
 		listOfNames.forEach(printName);
+		
+		//Apply Discount
+		Consumer<Double> applyDiscount = (price) -> {
+			System.out.println("Discounted Price : " + price * 0.9);
+		};
+		
+		applyDiscount.accept(1000.0);
+		
 	}
 
 }

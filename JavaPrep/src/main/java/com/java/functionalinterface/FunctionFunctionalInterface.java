@@ -13,6 +13,11 @@ public class FunctionFunctionalInterface {
 		};
 		String result = String.valueOf(calculateSalary.apply(salary));
 		System.out.println(result);
+		
+		//Get Length of String
+		Function<String, Integer> name = (str) -> str.length();
+		Integer len = name.apply("Vikram");
+		System.out.println("Length of String : " + len);
 	}
 
 }
